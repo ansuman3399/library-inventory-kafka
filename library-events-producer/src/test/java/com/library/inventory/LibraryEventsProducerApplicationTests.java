@@ -25,6 +25,8 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+//INTEGRATION TEST
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 //including embedded kafka so that the test can run without having our local kafka server up.
 @EmbeddedKafka(topics = {"library-events"}, partitions = 3)
