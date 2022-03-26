@@ -80,7 +80,7 @@ class LibraryEventsProducerApplicationTests {
         Thread.sleep(3000);
 
         String value = singleRecord.value();
-        String expected="{\"libraryEventId\":1,\"libraryEventType\":\"NEW\",\"book\":{\"bookId\":1,\"bookName\":\"RDPD\",\"author\":\"RK\"}}";
+        String expected = "{\"libraryEventId\":1,\"libraryEventType\":\"NEW\",\"book\":{\"bookId\":1,\"bookName\":\"RDPD\",\"author\":\"RK\"}}";
         assertEquals(expected, value);
     }
 
