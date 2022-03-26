@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.library.inventory</groupId>
-	<artifactId>library-evenst-consumer</artifactId>
+	<artifactId>library-event-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>library-evenst-consumer</name>
+	<name>library-event-consumer</name>
 	<description>Library inventory consumer project</description>
 	<properties>
 		<java.version>1.8</java.version>
